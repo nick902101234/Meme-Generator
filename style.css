@@ -6,7 +6,7 @@
   display: inline-block;
 } */
 
-#top-bar{
+header{
   padding-top: 1%;
   background-color: gray;
 }
@@ -28,6 +28,22 @@ label{
   margin-left: 5%;
   margin-right: 5%;
 }
+
+.wrapper-class{ 
+  position: relative;
+}
+.top-class{
+  position: abolute;
+  top: 10%;
+
+}
+.bottom-class{
+  position: absolute;
+  bottom: 10%;
+}
+
+
+
 
 button{
   padding: 1% 1% 1% 1%;
