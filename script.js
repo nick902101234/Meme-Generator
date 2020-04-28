@@ -53,9 +53,10 @@ form.addEventListener('submit',function(event){
   removeButton.value="remove"
   removeButton.className="remove"
   
-  const removeButtons = document.querySelectorAll('.remove')
-  //removeButton.id='remove'
-
+  removeButton.addEventListener('click', function(event){
+      event.target.parentElement.remove();
+    });
+  
   newDiv.id="div-wrapper"
   newDiv.className='wrapper-class'
 
@@ -67,13 +68,6 @@ form.addEventListener('submit',function(event){
 
   imageDiv.className = 'image-class'
   imageDiv.id = "image-div"
-
-  //loop to remove the memes
-  for(let btn of removeButtons){
-    btn.addEventListener('click', function(event){
-      event.target.parentElement.remove();
-    })
-  }
 
   //document.forms['add-meme'].reset() //resets the forms after submission
 
