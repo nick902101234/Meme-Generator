@@ -9,16 +9,16 @@ const memeSpread = document.querySelector('#meme-spread')
 form.addEventListener('submit',function(event){
   event.preventDefault();
 
-  const newDiv = document.createElement('div')//creates div to wrap
-  const imageDiv = document.createElement('div'); //creates image div
-  const newTop = document.createElement('div') //creates top div
-  const newBottom = document.createElement('div') //creates bottom div
-  const newImage = document.createElement('img')//creates image
-  const removeButton = document.createElement('button');
+  let newDiv = document.createElement('div')//creates div to wrap
+  let imageDiv = document.createElement('div'); //creates image div
+  let newTop = document.createElement('div') //creates top div
+  let newBottom = document.createElement('div') //creates bottom div
+  let newImage = document.createElement('img')//creates image
+  let removeButton = document.createElement('button');
   
 ////////////////////
-  const topPara = document.createElement('p')
-  const botPara = document.createElement('p')
+  let topPara = document.createElement('p')
+  let botPara = document.createElement('p')
 
   //const paraTag = document.createElement('p')
 ////////////////////
