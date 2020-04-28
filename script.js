@@ -28,15 +28,19 @@ form.addEventListener('submit',function(event){
   botPara.innerText = bottomText.value + ' '; 
   //adds bottomtext to div
 
+  newDiv.append(newImage)
+
   memeSpread.append(newDiv) //appends div to list
   newDiv.append(imageDiv)
   imageDiv.append(newImage)
-  //newDiv.append(newImage) //appends image to div
-  newDiv.append(newTop) //appends toptext to div
+  imageDiv.append(newImage) //appends image to div
+  imageDiv.append(newTop) //appends toptext to div
   newTop.append(topPara)
-  newDiv.append(newBottom) 
+  imageDiv.append(newBottom) 
   //appends bottom text to div
   newBottom.append(botPara)
+
+
   
   
   newDiv.append(removeButton)

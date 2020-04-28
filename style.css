@@ -5,56 +5,98 @@
   margin: 10px;
   display: inline-block;
 } */
+body{
+  width: 100%;
+  position: fixed;
+}
 
 header{
-  padding-top: 1%;
   background-color: gray;
+  width: 100%;
 }
-
-h1{
-  padding-left: 40%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+button:hover{
+  background-color: blue;
 }
-h3{
-  padding-left: 33%;
-}
-
-input {
-  padding-right: 20%;
-}
-
-label{
+.header-text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 5%;
-  margin-right: 5%;
+  text-align: center;
+}
+input{
+  width: 70%;
+  float: right;
+
 }
 
-.wrapper-class{ 
+
+
+#meme-spread{
+  display: inline-flex;
+  width: 100%;
+}
+
+
+.wrapper-class{
+  margin: 10px;
+  
+}
+.image-class{
   position: relative;
 }
-.top-class{
-  position: abolute;
-  top: 10%;
-
-}
-.bottom-class{
-  position: absolute;
-  bottom: 10%;
+.remove{
+  
+  
+  width: 100%;
+  margin: 2px 2px 2px 2px;
 }
 
-
-
-
-button{
-  padding: 1% 1% 1% 1%;
+#add-meme{
+  margin-right: 20%;
 }
+
+
+
+
+
+
+
+
+
 .forms{
   margin: 2%;
+  position: relative;
 }
 
 p{
   color: white;
-  background-color: black;
+  text-align: center;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.div-wrapper{
+  position: relative;
+}
+
+img{
+  display: block;
+
+}
+
+
+.top-class{
+  position: absolute;
+  width: 100%;
+  top: 3%
+  
+}
+.bottom-class{
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+  
 }
 
 
